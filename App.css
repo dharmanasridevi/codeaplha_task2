@@ -1,0 +1,54 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .app-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header, .sidebar {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header {
+    flex-shrink: 0;
+  }
+  
+  .sidebar {
+    width: 200px;
+    flex-shrink: 0;
+  }
+  
+  .metric, .analytic {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .metric h3, .analytic h3 {
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form textarea {
+    margin-bottom: 10px;
+  }
+  
+  form select {
+    margin-bottom: 10px;
+  }
+  
